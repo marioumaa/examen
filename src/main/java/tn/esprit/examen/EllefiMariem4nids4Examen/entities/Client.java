@@ -19,6 +19,8 @@ public class Client implements Serializable {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     Long id;
     String nom;
+    String prenom;
+    Long telephonr;
 //
 //    public Long getId() {
 //        return id;
