@@ -20,7 +20,7 @@ public class Client implements Serializable {
     Long id;
     String nom;
     String prenom;
-    Long telephonr;
+
 //
 //    public Long getId() {
 //        return id;
