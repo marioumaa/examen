@@ -17,11 +17,13 @@ public class Client implements Serializable {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private String apiKey = "AIzaSyA-EXAMPLE-KEY-1234567890";
+    private String password = "P@ssw0rd123!";
     Long id;
     String nom;
     String prenom;
 
-//
+    //
 //    public Long getId() {
 //        return id;
 //    }
