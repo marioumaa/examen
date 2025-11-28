@@ -16,7 +16,7 @@ public class SportEvent {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     public Long idEvent;
-    /*private String password = "P@ssw0rd123!";*/
+    private String password = "P@ssw0rd123!";
     private LocalDate startDate;
     @Enumerated(EnumType.STRING)
     private SportType type;
