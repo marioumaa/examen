@@ -19,7 +19,7 @@ public class Client implements Serializable {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private String apiKey = "AIzaSyA-EXAMPLE-KEY-1234567890";
     private String password = "P@ssw0rd123!";
-    private String name = "Mmpkpkk";
+
     Long id;
     String nom;
     String prenom;
